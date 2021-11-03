@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto' sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+}
+
+.counters {
+    color: azure;
+    padding: 40px 20px 12px;
+    border-top: 3px white solid;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    margin: 10px 0;
+}
+
+.counters i {
+    margin-bottom: 5px;
+    color: #d6b7c3;
+}
