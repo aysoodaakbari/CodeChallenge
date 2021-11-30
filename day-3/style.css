@@ -1,0 +1,33 @@
+body {
+    display: block;
+    width: 150vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acardion>div>span {
+    background-color: rgba(194, 138, 247, 0.63);
+    display: block;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.acardion>div>span::after {
+    content: "\002B";
+    float: right;
+}
+
+.acardion>div>span:hover {
+    background-color: rgb(194, 138, 247);
+}
+
+.acardion>div>div {
+    padding: 15px;
+    border-left: 1px solid rgb(194, 138, 247);
+    border-right: 1px solid rgb(194, 138, 247);
+    display: none;
+}
+
+.acardion>div.show>div {
+    display: block;
+}
