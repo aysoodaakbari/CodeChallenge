@@ -22,12 +22,15 @@ body {
 }
 
 .acardion>div>div {
-    padding: 15px;
     border-left: 1px solid rgb(194, 138, 247);
     border-right: 1px solid rgb(194, 138, 247);
-    display: none;
+    /* display: none;*/
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    padding: 0 15px;
 }
 
 .acardion>div.show>div {
-    display: block;
+    padding: 15px;
 }
